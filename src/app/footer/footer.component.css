@@ -1,0 +1,9 @@
+.ft{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.bar{
+  margin: auto;
+}
