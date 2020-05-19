@@ -12,6 +12,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { NgxSpinnerModule } from "ngx-spinner";
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+// import { NgProgressModule } from 'ngx-progressbar';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
     NgProgressModule.forRoot(),
     NgProgressHttpClientModule,
     NgxSpinnerModule,
+    NgProgressModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
