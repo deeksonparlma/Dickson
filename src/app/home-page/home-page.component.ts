@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../project';
+import { NgxSpinnerService } from "ngx-spinner";
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-page',
@@ -8,10 +10,10 @@ import { Project } from '../project';
 })
 export class HomePageComponent {
   title ='Dickson';
-  // names:string[];
-  // constructor(){
-  //    this.names = ['Watch finding Nemo', 'Buy cookies', 'Get new phone case']
-  // }
+
+  constructor(){
+
+  }
   projects:Project[] = [
     {id:0,title:'Meme Flix',link:'https://play.google.com/store/apps/details?id=com.deekson.memeflix',desc:'A mobile application that enables peoople to share memes',date:'01/03/2020'},
     {id:0,title:'E-learning',link:'https://digi-school-elearning.herokuapp.com',desc:'An App that makes learning materials available to students',date:'25/05/2020'},
@@ -22,4 +24,7 @@ export class HomePageComponent {
     {id:0,title:'Movies Hub',link:'https://deeksonparlma.github.io/movies',desc:'Website design for hosting movies',date:'25/05/2020'},
 
   ];
+  ngOnInit(){
+    // this.SpinnerService.hide();
+  }
 }
