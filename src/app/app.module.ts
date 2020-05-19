@@ -13,6 +13,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
+
 @NgModule({
   // schemas:[NO_ERRORS_SCHEMA],
   declarations: [

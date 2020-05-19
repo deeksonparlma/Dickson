@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../project';
-import { NgxSpinnerService } from "ngx-spinner";
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-page',
