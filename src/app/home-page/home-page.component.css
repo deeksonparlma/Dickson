@@ -18,9 +18,16 @@
   padding-left: 40%;
   white-space: nowrap;
 }
-.img{
+/* .img{
   padding-top: 60px;
   height: 500px;
+} */
+.image-section{
+  background-image: url('./pic3.png');
+  background-size: contain;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 .overlay{
   position: absolute;
@@ -37,7 +44,7 @@
   }
 }
 @media only screen and (max-width:700px){
-  .img{
+  .image-section{
     height: 450px;
     align-self: center;
   }
