@@ -7,6 +7,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  /* background: rgba(0,0,0,0.03); */
+  padding: 5%;
+
+}
+.skillList>div{
+  margin: auto;
 }
 .skill1{
   background-image:url('./skillsAssets/flutter.png');
@@ -29,6 +35,91 @@
 .skill4{
   background-image:url('./skillsAssets/gradle.png');
   height:100px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill5{
+  background-image:url('./skillsAssets/java.png');
+  height:100px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.skill6{
+  background-image:url('./skillsAssets/kotlin.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill7{
+  background-image:url('./skillsAssets/python.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+
+.skill8{
+  background-image:url('./skillsAssets/c.jpeg');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill9{
+  background-image:url('./skillsAssets/psql.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill10{
+  background-image:url('./skillsAssets/react.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill11{
+  background-image:url('./skillsAssets/apache.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill12{
+  background-image:url('./skillsAssets/android.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill13{
+  background-image:url('./skillsAssets/angular.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill14{
+  background-image:url('./skillsAssets/html.png');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill15{
+  background-image:url('./skillsAssets/css.jpeg');
+  height:100px;
+  background-size: contain;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill16{
+  background-image:url('./skillsAssets/js.png');
+  height:100px;
+  background-size: contain;
   width: 60px;
   background-repeat: no-repeat;
 }
