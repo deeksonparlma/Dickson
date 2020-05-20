@@ -1,6 +1,6 @@
 {
-  "name": "App",
-  "short_name": "App",
+  "name": "Portfolio",
+  "short_name": "Portfolio",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
