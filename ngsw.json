@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1589983285872,
+  "timestamp": 1589988137589,
   "index": "https://deeksonparlma.github.io/Dickson/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://deeksonparlma.github.io/Dickson/favicon.ico",
         "https://deeksonparlma.github.io/Dickson/index.html",
-        "https://deeksonparlma.github.io/Dickson/main-es2015.055e584dfa5e584d6318.js",
-        "https://deeksonparlma.github.io/Dickson/main-es5.055e584dfa5e584d6318.js",
+        "https://deeksonparlma.github.io/Dickson/main-es2015.833c37a01cc658dddc05.js",
+        "https://deeksonparlma.github.io/Dickson/main-es5.833c37a01cc658dddc05.js",
         "https://deeksonparlma.github.io/Dickson/manifest.webmanifest",
         "https://deeksonparlma.github.io/Dickson/polyfills-es2015.690002c25ea8557bb4b0.js",
         "https://deeksonparlma.github.io/Dickson/polyfills-es5.9e286f6d9247438cbb02.js",
@@ -26,6 +26,9 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "https://deeksonparlma.github.io/Dickson/android.b883693fedfd3c627e4b.png",
+        "https://deeksonparlma.github.io/Dickson/angular.20a72607b59ff4fbecf3.png",
+        "https://deeksonparlma.github.io/Dickson/apache.961e30032005242a5768.png",
         "https://deeksonparlma.github.io/Dickson/assets/App.js",
         "https://deeksonparlma.github.io/Dickson/assets/bootstrap.css",
         "https://deeksonparlma.github.io/Dickson/assets/favicons/android-chrome-192x192.png",
@@ -68,13 +71,23 @@
         "https://deeksonparlma.github.io/Dickson/firebase.230053c84c0938f9854d.png",
         "https://deeksonparlma.github.io/Dickson/flutter.530244d6ab36675063d9.png",
         "https://deeksonparlma.github.io/Dickson/gradle.559652d33cc03ecd7ecb.png",
-        "https://deeksonparlma.github.io/Dickson/pic3.2cf9779df49cf1a963b1.png"
+        "https://deeksonparlma.github.io/Dickson/html.8538c2b3a55f8df7ff93.png",
+        "https://deeksonparlma.github.io/Dickson/java.5103304346889febdca2.png",
+        "https://deeksonparlma.github.io/Dickson/js.1a90fcb0813ff7b58108.png",
+        "https://deeksonparlma.github.io/Dickson/kotlin.c73d25750d53c655efc2.png",
+        "https://deeksonparlma.github.io/Dickson/pic3.2cf9779df49cf1a963b1.png",
+        "https://deeksonparlma.github.io/Dickson/psql.7ef58b3bf68da0bc18ca.png",
+        "https://deeksonparlma.github.io/Dickson/python.8bd687666b5ee12f4a8e.png",
+        "https://deeksonparlma.github.io/Dickson/react.610841eb9c541080bbba.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://deeksonparlma.github.io/Dickson/android.b883693fedfd3c627e4b.png": "54c681d985ae805feed223abcf73331cfd3869a7",
+    "https://deeksonparlma.github.io/Dickson/angular.20a72607b59ff4fbecf3.png": "e6b793a6b49d0a884f8ecf36089c646f9362bcb7",
+    "https://deeksonparlma.github.io/Dickson/apache.961e30032005242a5768.png": "34ea82c4972038b125e064a904b8f150bab8f01e",
     "https://deeksonparlma.github.io/Dickson/assets/App.js": "a6567faa7ce14f49112a0d77f301a7c1374fb897",
     "https://deeksonparlma.github.io/Dickson/assets/bootstrap.css": "2d7fcb7f4bce08c89f4e394a87e656f4d0733288",
     "https://deeksonparlma.github.io/Dickson/assets/favicons/android-chrome-192x192.png": "ef91ced7be9ab3c63772f382cfdb0a59eb41e57e",
@@ -118,13 +131,20 @@
     "https://deeksonparlma.github.io/Dickson/firebase.230053c84c0938f9854d.png": "eb7c15c7c9365d2a514e2702768b362d641cfe87",
     "https://deeksonparlma.github.io/Dickson/flutter.530244d6ab36675063d9.png": "9fe6ad8866ae837e1d9e6e70db9097c1e7d5e810",
     "https://deeksonparlma.github.io/Dickson/gradle.559652d33cc03ecd7ecb.png": "f2c8846e948191b097fb5336d60c42f5c1acb7f7",
-    "https://deeksonparlma.github.io/Dickson/index.html": "e6a374d5d7e4a5bf375b90e248834a92800b31c5",
-    "https://deeksonparlma.github.io/Dickson/main-es2015.055e584dfa5e584d6318.js": "eec8e77a4cb56f57653f218ed80c1a79bfa122eb",
-    "https://deeksonparlma.github.io/Dickson/main-es5.055e584dfa5e584d6318.js": "85d470816b0443956c7def3c96c5c75180880d8e",
+    "https://deeksonparlma.github.io/Dickson/html.8538c2b3a55f8df7ff93.png": "2e0a4c1ae06aa3f9970b658be8a1d58324c763e5",
+    "https://deeksonparlma.github.io/Dickson/index.html": "0413b1c6f9c25d15a32cd4eed97e8668d35d92a2",
+    "https://deeksonparlma.github.io/Dickson/java.5103304346889febdca2.png": "fa986532fb5aa1a17c9e9827508c97bf00d32b9f",
+    "https://deeksonparlma.github.io/Dickson/js.1a90fcb0813ff7b58108.png": "2a8821b5b54195acbbbfc1d647b156af00d53bad",
+    "https://deeksonparlma.github.io/Dickson/kotlin.c73d25750d53c655efc2.png": "1115a724a55697e518588765f5ff59a6c4c6b28d",
+    "https://deeksonparlma.github.io/Dickson/main-es2015.833c37a01cc658dddc05.js": "d592fa8c60e6794cb2c0ec4ab36e4c448354ce30",
+    "https://deeksonparlma.github.io/Dickson/main-es5.833c37a01cc658dddc05.js": "7a837f1bc5c1fe317baf88c6fd71f569eecf477a",
     "https://deeksonparlma.github.io/Dickson/manifest.webmanifest": "5bf5b73a94a30b07a8840ac6d0b5f590a6127f1c",
     "https://deeksonparlma.github.io/Dickson/pic3.2cf9779df49cf1a963b1.png": "ed0f22580383394200e94b48fdccb9f2887870f1",
     "https://deeksonparlma.github.io/Dickson/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "https://deeksonparlma.github.io/Dickson/polyfills-es5.9e286f6d9247438cbb02.js": "89222a28dbabb780fc372d33834080e0cd3083d9",
+    "https://deeksonparlma.github.io/Dickson/psql.7ef58b3bf68da0bc18ca.png": "78347bed7176d61fe4d27b7881795a8d3a4a86f4",
+    "https://deeksonparlma.github.io/Dickson/python.8bd687666b5ee12f4a8e.png": "eb6a41eb0ff1a6b00fc54eb44710b7075d882819",
+    "https://deeksonparlma.github.io/Dickson/react.610841eb9c541080bbba.png": "0d75eb1b77e6610da8bd7c1c5ececf438ebd6323",
     "https://deeksonparlma.github.io/Dickson/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://deeksonparlma.github.io/Dickson/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://deeksonparlma.github.io/Dickson/styles.cbbc03feed1474999c59.css": "ef50da421e57e2733cb5bab5944adb8e4567cc41"
