@@ -7,3 +7,11 @@
 .errMessage{
   padding-left: 30%;
 }
+.err{
+  background:url('./nature.jpeg');font-size:200px;
+background-position:bottom;
+  white-space:nowrap;
+  font-weight:300px;
+ -webkit-background-clip:text;
+ -webkit-text-fill-color:transparent;
+}
