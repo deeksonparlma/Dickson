@@ -14,6 +14,8 @@ import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 // import { NgProgressModule } from 'ngx-progressbar';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
     NavbarComponent,
     FooterComponent,
     NotFoundComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
