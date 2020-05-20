@@ -1,1 +1,19 @@
-<p>projects works!</p>
+<div class="content">
+<div class="container">
+  <h3>Projects</h3>
+  <hr class="topLine">
+
+    <div class="projects">
+      <!--loop-->
+      <div class="Project" *ngFor='let project of projects'>
+      <p> <strong class="projName">{{project.title}}</strong> <span class="date">{{project.date}}</span> </p>
+      <p>{{project.desc}}</p>
+
+      <a  (click)="openlink(project.link,project.title);" class="link">View Project</a><br>
+      <hr>
+    </div>
+     <!--end-->
+  </div>
+
+</div>
+</div>

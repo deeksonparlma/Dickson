@@ -1,1 +1,25 @@
-<p>contact works!</p>
+<div class="content">
+  <div class="contact">
+    <form class="form-group" #contact='ngForm' (ngSubmit)='stat()'>
+      <input type="text" class="form-control" name="name" value="" [(ngModel)]="name" placeholder="Name" required>
+      <input type="email" name="email" value="" class="form-control" [(ngModel)]="email" placeholder="email@dormain.com" required>
+
+      <textarea name="message" class="form-control" rows="8" placeholder="message" [(ngModel)]="message" cols="80" required></textarea>
+      <br>
+      <button type="submit" class="btn btn-info" name="button">Send</button>
+    </form>
+  </div>
+  <div class="socialMedia">
+    <hr style="background:grey;">
+    <div class="links" >
+
+      <a *ngFor='let link of links'  (click)="goToUrl(link.link,link.platform)">
+        {{link.platform}}
+      </a>
+      <a href="mailto:dickson.nyaigoti@gmail.com" target="_blank">
+        Email
+      </a>
+  </div>
+
+  </div>
+</div>

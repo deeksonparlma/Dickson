@@ -18,10 +18,7 @@
   padding-left: 40%;
   white-space: nowrap;
 }
-/* .img{
-  padding-top: 60px;
-  height: 500px;
-} */
+
 .image-section{
   background-image: url('./pic3.png');
   background-size: contain;
@@ -37,15 +34,36 @@
   left: 0;
   background-color: rgba(1,8,25,0.5);
 }
+
 @media only screen and (min-width:700px){
   .tagName{
     font-family: 'Saira Stencil One', cursive;
     font-size: 70px;
   }
+  .dev{
+    background-image: url('./dev.svg');
+    background-color: rgba(1,8,25,1);
+    height: 30px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+  }
 }
 @media only screen and (max-width:700px){
+  .tag>i{
+    color: white;
+    padding-left: 10%;
+    white-space: nowrap;
+  }
   .image-section{
     height: 450px;
     align-self: center;
+  }
+  .dev2{
+    background-image: url('./dev.svg');
+    background-color: rgba(1,8,25,1);
+    height: 25px;
+    width: 100%;
+    background-repeat: no-repeat;
   }
 }

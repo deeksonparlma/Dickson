@@ -1,0 +1,60 @@
+.content{
+  padding-top: 60px;
+}
+.skillList{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.skill1{
+  background-image:url('./skillsAssets/flutter.png');
+  height:100px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill2{
+  background-image:url('./skillsAssets/firebase.png');
+  height:100px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill3{
+  background-image:url('./skillsAssets/es6.png');
+  height:100px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.skill4{
+  background-image:url('./skillsAssets/gradle.png');
+  height:100px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-width:700px){
+  .skill1{
+    background-image:url('./skillsAssets/flutter.png');
+    height:100px;
+    width: 100px;
+    background-repeat: no-repeat;
+  }
+  .skill2{
+    background-image:url('./skillsAssets/firebase.png');
+    height:100px;
+    width: 100px;
+    background-repeat: no-repeat;
+  }
+  .skill3{
+    background-image:url('./skillsAssets/es6.png');
+    height:100px;
+    width: 100px;
+    background-repeat: no-repeat;
+  }
+  .skill4{
+    background-image:url('./skillsAssets/gradle.png');
+    height:100px;
+    width: 100px;
+    background-repeat: no-repeat;
+  }
+}

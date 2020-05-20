@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,9 +14,11 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 // import { NgProgressModule } from 'ngx-progressbar';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+// import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
+import { WebviewComponent } from './webview/webview.component';
 
 
 @NgModule({
@@ -28,7 +31,8 @@ import { ContactComponent } from './contact/contact.component';
     NotFoundComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    WebviewComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +41,8 @@ import { ContactComponent } from './contact/contact.component';
     NgProgressHttpClientModule,
     NgxSpinnerModule,
     NgProgressModule,
+    HttpClientModule,
+    FormsModule,
     HttpClientModule,
   ],
   providers: [],
