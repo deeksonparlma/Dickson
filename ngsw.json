@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1589988137589,
+  "timestamp": 1591795182186,
   "index": "https://deeksonparlma.github.io/Dickson/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://deeksonparlma.github.io/Dickson/favicon.ico",
         "https://deeksonparlma.github.io/Dickson/index.html",
-        "https://deeksonparlma.github.io/Dickson/main-es2015.833c37a01cc658dddc05.js",
-        "https://deeksonparlma.github.io/Dickson/main-es5.833c37a01cc658dddc05.js",
+        "https://deeksonparlma.github.io/Dickson/main-es2015.2289f53e1c08b98a8a53.js",
+        "https://deeksonparlma.github.io/Dickson/main-es5.2289f53e1c08b98a8a53.js",
         "https://deeksonparlma.github.io/Dickson/manifest.webmanifest",
         "https://deeksonparlma.github.io/Dickson/polyfills-es2015.690002c25ea8557bb4b0.js",
         "https://deeksonparlma.github.io/Dickson/polyfills-es5.9e286f6d9247438cbb02.js",
@@ -132,12 +132,12 @@
     "https://deeksonparlma.github.io/Dickson/flutter.530244d6ab36675063d9.png": "9fe6ad8866ae837e1d9e6e70db9097c1e7d5e810",
     "https://deeksonparlma.github.io/Dickson/gradle.559652d33cc03ecd7ecb.png": "f2c8846e948191b097fb5336d60c42f5c1acb7f7",
     "https://deeksonparlma.github.io/Dickson/html.8538c2b3a55f8df7ff93.png": "2e0a4c1ae06aa3f9970b658be8a1d58324c763e5",
-    "https://deeksonparlma.github.io/Dickson/index.html": "0413b1c6f9c25d15a32cd4eed97e8668d35d92a2",
+    "https://deeksonparlma.github.io/Dickson/index.html": "c4ef3b706be528912569f447df46bc939c2c193a",
     "https://deeksonparlma.github.io/Dickson/java.5103304346889febdca2.png": "fa986532fb5aa1a17c9e9827508c97bf00d32b9f",
     "https://deeksonparlma.github.io/Dickson/js.1a90fcb0813ff7b58108.png": "2a8821b5b54195acbbbfc1d647b156af00d53bad",
     "https://deeksonparlma.github.io/Dickson/kotlin.c73d25750d53c655efc2.png": "1115a724a55697e518588765f5ff59a6c4c6b28d",
-    "https://deeksonparlma.github.io/Dickson/main-es2015.833c37a01cc658dddc05.js": "d592fa8c60e6794cb2c0ec4ab36e4c448354ce30",
-    "https://deeksonparlma.github.io/Dickson/main-es5.833c37a01cc658dddc05.js": "7a837f1bc5c1fe317baf88c6fd71f569eecf477a",
+    "https://deeksonparlma.github.io/Dickson/main-es2015.2289f53e1c08b98a8a53.js": "23e688aaf84d079e229b4c6d3fb43569825fe6b1",
+    "https://deeksonparlma.github.io/Dickson/main-es5.2289f53e1c08b98a8a53.js": "bc348477d4ebc5a9e958d9f2f5bce3e7e2177c3d",
     "https://deeksonparlma.github.io/Dickson/manifest.webmanifest": "5bf5b73a94a30b07a8840ac6d0b5f590a6127f1c",
     "https://deeksonparlma.github.io/Dickson/pic3.2cf9779df49cf1a963b1.png": "ed0f22580383394200e94b48fdccb9f2887870f1",
     "https://deeksonparlma.github.io/Dickson/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
