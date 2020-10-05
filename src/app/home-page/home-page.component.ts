@@ -28,18 +28,17 @@ export class HomePageComponent {
 
   ];
   fetchData(){
-      // this.apiService.fetch().subscribe((data:  Array<Item>)=>{
-      // console.log(data);
-      // this.items  =  data;
-      // }, (err)=>{
-      // console.log(err);
-      // });
-      
+      this.apiService.fetch().subscribe((data:  Array<Item>)=>{
+      console.log(data);
+      this.items  =  data;
+      }, (err)=>{
+      console.log(err);
+      });
+
   }
   ngOnInit(){
-    // this.SpinnerService.hide();
     this.quoteservice.quoteRequest()
     this.quote =  this.quoteservice.quote
-    // this.fetchData();
+    this.fetchData();
   }
 }

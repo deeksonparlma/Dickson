@@ -17,6 +17,7 @@ quote : Quote;
       quote:string;
       author:string;
     }
+
     let promise = new Promise((resolve,reject)=>{
       this.http.get<ApiResponse>("http://quotes.stormconsultancy.co.uk/random.json").toPromise().then(response=>{
         console.log(response);
@@ -26,12 +27,13 @@ quote : Quote;
         resolve()
       },
       error=>{
-        this.quote.quote = "Never, never, never give up"
-        this.quote.author = "Winston Churchill"
+        this.quote.quote = "In code we believe"
+        this.quote.author = "Code Mogul"
 
         reject(error)
       })
     })
     return promise
   }
+
 }
