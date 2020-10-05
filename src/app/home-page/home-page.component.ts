@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Project } from '../project';
 import { ApiService } from  '../api.service';
 import { Item } from  '../api.service';
+import { Quote } from '../quote';
+import { QuoteserviceService } from '../quoteservice.service';
 
 @Component({
   selector: 'app-home-page',
@@ -11,7 +13,8 @@ import { Item } from  '../api.service';
 export class HomePageComponent {
   title ='Dickson';
   items:  Array<Item>;
-  constructor(private  apiService:  ApiService){
+  quote : Quote;
+  constructor(private  apiService:  ApiService,private quoteservice: QuoteserviceService){
 
   }
   projects:Project[] = [
@@ -34,6 +37,8 @@ export class HomePageComponent {
   }
   ngOnInit(){
     // this.SpinnerService.hide();
-    this.fetchData();
+    this.quoteservice.quoteRequest()
+    this.quote =  this.quoteservice.quote
+    // this.fetchData();
   }
 }
