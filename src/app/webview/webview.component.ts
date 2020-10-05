@@ -17,6 +17,6 @@ export class WebviewComponent implements OnInit {
     this.link =this.route.snapshot.paramMap.get('link');
     this.platform =this.route.snapshot.paramMap.get('platform');
 
-    this.WebService.checkLink(this.route.snapshot.paramMap.get('link'));
+    // this.WebService.checkLink(this.route.snapshot.paramMap.get('link'));
   }
 }

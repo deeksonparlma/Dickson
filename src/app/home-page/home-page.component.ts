@@ -4,6 +4,8 @@ import { ApiService } from  '../api.service';
 import { Item } from  '../api.service';
 import { Quote } from '../quote';
 import { QuoteserviceService } from '../quoteservice.service';
+import { WebService } from '../web.service';
+
 
 @Component({
   selector: 'app-home-page',
@@ -14,7 +16,7 @@ export class HomePageComponent {
   title ='Dickson';
   items:  Array<Item>;
   quote : Quote;
-  constructor(private  apiService:  ApiService,private quoteservice: QuoteserviceService){
+  constructor(private  apiService:  ApiService,private quoteservice: QuoteserviceService, private webservice : WebService){
 
   }
   projects:Project[] = [
@@ -29,7 +31,7 @@ export class HomePageComponent {
   ];
   fetchData(){
       this.apiService.fetch().subscribe((data:  Array<Item>)=>{
-      console.log(data);
+      // console.log(data);
       this.items  =  data;
       }, (err)=>{
       console.log(err);
@@ -39,6 +41,10 @@ export class HomePageComponent {
   ngOnInit(){
     this.quoteservice.quoteRequest()
     this.quote =  this.quoteservice.quote
+    // console.log(this.quote)
+
+    // thiswebservice.checkLink("http://quotes.stormconsultancy.co.uk/random.json")
+
     this.fetchData();
   }
 }

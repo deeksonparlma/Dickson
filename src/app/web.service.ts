@@ -15,7 +15,7 @@ export class WebService {
     }
     let promise = new Promise((resolve,reject)=>{
       this.http.get<ApiResponse>(link).toPromise().then(response=>{
-        console.log(response);
+        // console.log(response);
         resolve()
       },
       error=>{
@@ -24,5 +24,5 @@ export class WebService {
     })
     return promise
   }
-  
+
 }

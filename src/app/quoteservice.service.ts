@@ -20,15 +20,15 @@ quote : Quote;
 
     let promise = new Promise((resolve,reject)=>{
       this.http.get<ApiResponse>("http://quotes.stormconsultancy.co.uk/random.json").toPromise().then(response=>{
-        console.log(response);
+        // console.log(response);
         this.quote.quote = response.quote
         this.quote.author = response.author
 
         resolve()
       },
       error=>{
-        this.quote.quote = "In code we believe"
-        this.quote.author = "Code Mogul"
+        this.quote.quote = ""
+        this.quote.author = ""
 
         reject(error)
       })
