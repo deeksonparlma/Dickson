@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../project';
+import { ApiService } from  '../api.service';
+import { Item } from  '../api.service';
 
 @Component({
   selector: 'app-home-page',
@@ -8,8 +10,8 @@ import { Project } from '../project';
 })
 export class HomePageComponent {
   title ='Dickson';
-
-  constructor(){
+  items:  Array<Item>;
+  constructor(private  apiService:  ApiService){
 
   }
   projects:Project[] = [
@@ -22,7 +24,16 @@ export class HomePageComponent {
     {id:0,title:'Movies Hub',link:'https://deeksonparlma.github.io/movies',desc:'Website design for hosting movies',date:'25/05/2020'},
 
   ];
+  fetchData(){
+      this.apiService.fetch().subscribe((data:  Array<Item>)=>{
+      console.log(data);
+      this.items  =  data;
+      }, (err)=>{
+      console.log(err);
+      });
+  }
   ngOnInit(){
     // this.SpinnerService.hide();
+    this.fetchData();
   }
 }
